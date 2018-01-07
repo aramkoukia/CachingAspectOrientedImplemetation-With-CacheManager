@@ -3,3 +3,6 @@
 ################################################################################
 
 /CachingAspectOrientedImplementation/bin
+/packages
+/CachingAspectOrientedImplementation/obj/Debug
+/.vs/CachingAspectOrientedImplementation/v15/Server/sqlite3

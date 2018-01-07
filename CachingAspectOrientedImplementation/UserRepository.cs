@@ -4,7 +4,7 @@ namespace CachingAspectOrientedImplemetation
 {
     public class UserRepository : IUserRepository
     {
-        [Cache("key")]
+        
         public IEnumerable<string> GetUsers()
         {
             return new string[] { "User 1", "User 2" };
@@ -14,8 +14,7 @@ namespace CachingAspectOrientedImplemetation
         {
             return "User 1";
         }
-
-        [InvalidateCache("key")]
+        
         public bool UpdateUser(string username)
         {
             return true;
